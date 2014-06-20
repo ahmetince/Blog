@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bmotestproject.MainActivity" >
+
+    <item
+        android:id="@+id/action_clear_completed_tasks"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_clear_completed_tasks"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new" 
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/action_add">
+    </item>
+
+</menu>

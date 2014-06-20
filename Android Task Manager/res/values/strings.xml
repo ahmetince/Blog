@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMO Test Project</string>
+    <string name="action_clear_completed_tasks">Clear completed tasks.</string>
+    <string name="title_activity_main">Task Manager</string>
+    <string name="title_activity_add">Add</string>
+    <string name="action_add">Add</string>
+    <string name="empty_list">No task to do..</string>
+    <string name="buttonAdd">Add</string>
+    <string name="editViewAddHint">Input your task here.</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="task_completed">Task has been set completed.</string>
+    <string name="task_removed">Task has been removed.</string>
+    <string name="task_updated">Task has been updated.</string>
+    <string name="task_added">Task has been added.</string>
+
+</resources>
