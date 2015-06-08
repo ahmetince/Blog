@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewPublicKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Public Key Not Available" />
+
+        <TextView
+            android:id="@+id/textViewPrivateKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Private Key Not Available" />
+
+        <Button
+            android:id="@+id/buttonGenerateKeys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="generateKeysClicked"
+            android:text="GenerateKeys" />
+
+        <TextView
+            android:id="@+id/textViewEncrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Encrypt" />
+
+        <EditText
+            android:id="@+id/editTextEncrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Hello RSA =)" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonEncrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="encryptButtonClicked"
+            android:text="Encrypt" />
+
+        <TextView
+            android:id="@+id/textViewDecrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Decrypt" />
+
+        <EditText
+            android:id="@+id/editTextDecrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonDecrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="decryptButtonClicked"
+            android:text="Decrypt" />
+    </LinearLayout>
+
+</ScrollView>
